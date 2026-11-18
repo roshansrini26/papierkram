@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets and local config
+.env
+
+# Data: real letters and generated stores never go to GitHub
+data/
+chroma_db/
+manifest.json
+temp_images/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
